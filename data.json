@@ -1,0 +1,101 @@
+{
+    "entities": [
+        {
+            "startDate": "2023-12-03T00:00:00.000Z",
+            "endDate": "2023-12-03T06:00:00.000Z",
+            "totalScheduledDurationSeconds": 0,
+            "totalLoggedInDurationSeconds": 0,
+            "aggregatedShrinkage": {
+                "scheduledShrinkageSeconds": 0,
+                "scheduledShrinkagePercent": 0,
+                "actualShrinkageSeconds": 0,
+                "actualShrinkagePercent": 0,
+                "paidShrinkageSeconds": 0,
+                "unpaidShrinkageSeconds": 0,
+                "plannedShrinkageSeconds": 0,
+                "unplannedShrinkageSeconds": 0
+            },
+            "shrinkageForActivityCategories": [],
+            "businessUnitIds": [
+                "c5462d1d-606a-4acb-bebf-af02da2d9c15"
+            ]
+        },
+        {
+            "startDate": "2023-12-03T06:00:00.000Z",
+            "endDate": "2023-12-03T23:59:00.000Z",
+            "totalScheduledDurationSeconds": 0,
+            "totalLoggedInDurationSeconds": 41369,
+            "aggregatedShrinkage": {
+                "scheduledShrinkageSeconds": 0,
+                "scheduledShrinkagePercent": 0,
+                "actualShrinkageSeconds": 22503,
+                "actualShrinkagePercent": 54.4,
+                "paidShrinkageSeconds": 0,
+                "unpaidShrinkageSeconds": 0,
+                "plannedShrinkageSeconds": 0,
+                "unplannedShrinkageSeconds": 0
+            },
+            "shrinkageForActivityCategories": [
+                {
+                    "activityCategory": "OffQueueWork",
+                    "shrinkageForActivityCodes": [
+                        {
+                            "activityCodeId": "4",
+                            "shrinkageForActivityCode": {
+                                "scheduledShrinkageSeconds": 0,
+                                "scheduledShrinkagePercent": 0,
+                                "actualShrinkageSeconds": 21626,
+                                "actualShrinkagePercent": 52.28,
+                                "paidShrinkageSeconds": 0,
+                                "unpaidShrinkageSeconds": 0,
+                                "plannedShrinkageSeconds": 0,
+                                "unplannedShrinkageSeconds": 0
+                            }
+                        }
+                    ],
+                    "shrinkageForActivityCategory": {
+                        "scheduledShrinkageSeconds": 0,
+                        "scheduledShrinkagePercent": 0,
+                        "actualShrinkageSeconds": 21626,
+                        "actualShrinkagePercent": 52.28,
+                        "paidShrinkageSeconds": 0,
+                        "unpaidShrinkageSeconds": 0,
+                        "plannedShrinkageSeconds": 0,
+                        "unplannedShrinkageSeconds": 0
+                    }
+                },
+                {
+                    "activityCategory": "Break",
+                    "shrinkageForActivityCodes": [
+                        {
+                            "activityCodeId": "1",
+                            "shrinkageForActivityCode": {
+                                "scheduledShrinkageSeconds": 0,
+                                "scheduledShrinkagePercent": 0,
+                                "actualShrinkageSeconds": 877,
+                                "actualShrinkagePercent": 2.12,
+                                "paidShrinkageSeconds": 0,
+                                "unpaidShrinkageSeconds": 0,
+                                "plannedShrinkageSeconds": 0,
+                                "unplannedShrinkageSeconds": 0
+                            }
+                        }
+                    ],
+                    "shrinkageForActivityCategory": {
+                        "scheduledShrinkageSeconds": 0,
+                        "scheduledShrinkagePercent": 0,
+                        "actualShrinkageSeconds": 877,
+                        "actualShrinkagePercent": 2.12,
+                        "paidShrinkageSeconds": 0,
+                        "unpaidShrinkageSeconds": 0,
+                        "plannedShrinkageSeconds": 0,
+                        "unplannedShrinkageSeconds": 0
+                    }
+                }
+            ],
+            "businessUnitIds": [
+                "c5462d1d-606a-4acb-bebf-af02da2d9c15"
+            ]
+        }
+    ]
+}
